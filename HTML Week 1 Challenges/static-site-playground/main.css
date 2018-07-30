@@ -1,0 +1,36 @@
+body{
+
+}
+
+*{
+	box-sizing: border-box;
+}
+
+div{
+	height: 200px;
+	width: 200px;
+	color: white;
+	border: 5px solid #999999;
+	margin: 40px;
+	padding: 15px;
+
+
+}
+.div-1{
+	background: red;
+	display: inline;
+
+}
+
+.div-2 {
+
+	background: green;
+	display: inline;
+	display: inline;
+	
+}
+
+.div-3{
+	background: blue;
+	display: inline;
+}
