@@ -1,0 +1,53 @@
+body{
+  margin: 0;
+}
+
+.page-body{
+  display: grid;
+  grid-template-columns: 200px 1fr; 
+  height: 100vh;
+  width: 100vw;
+}
+
+.menu-header{
+  border-bottom: 1px solid black;
+  height: 2em;
+  margin-top: 30%;
+  padding-bottom: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+}
+
+.cart{
+  border-bottom: 1px solid black;
+  display: flex;
+  align-items: center;
+  align-self: center;
+}
+
+.cart-number{
+  border-right: 1px solid black;
+}
+
+.main-content{
+/*  grid-area: maincontent;
+*/  background-color: blue;
+}
+
+.menu-top{
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.menu-middle{
+  border-bottom: 1px solid black;
+}
+
+.side-menu{
+/*  grid-area: sidemenu;
+*/  background-color: purple;
+height: 100vh;
+}
+
